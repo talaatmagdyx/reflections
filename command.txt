@@ -1,0 +1,68 @@
+git log | List the commits and show which files have changed
+
+q | exit git log
+
+git diff "id1"  "id2" | compare two commits
+
+git log --stat | show some statistic about file changed in every commit
+
+git --version | check its version of git
+
+git clone "URL" | create a local copy from the repository
+
+git config | change setting in the git
+
+git config --global color.ui auto  | get colored diff output
+
+git checkout "id" | show a previous of th file
+
+git add  |    Add a file to the staging area
+
+git commit  |    Commit the files from the staging area to the repository 
+
+git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository    
+
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+
+git diff --staged  |    Compare the staging area with the repository
+
+git reset --hard  |    Undo all changes! There is no rollback for this, so be carefull!
+
+git checkout master  |    Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+
+git log --graph --oneline <branch1> <branch2>  |    Show a visual representation of the commit history within different branches
+
+git checkout -b new_branch_name  |    Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
+
+git branch -d name  |    Remove the branch with the specified name
+
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
+
+git remote  |    Show all remote locations for the repository
+
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+
+git push origin master  |    Push the master branch to the remote location origin.
+
+git pull origin master  |    Get the master branch from the remote location origin.
+
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
+
+command bash 
+cd |change directory  to your home
+
+mkdir | make directory folder
+
+pwd | show what directory you are in 
+
+mv | move the file or folder
+
+ls | see all files 
+
+ls -a | see all files and hidden files 
