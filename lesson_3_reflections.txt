@@ -1,27 +1,22 @@
 When would you want to create a remote repository rather than keeping all your work local?
     When collaborating with other users it's easier to share updates by using a remote repository. This way others can contribute, and get changes too.
 
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+ Changes can cause conflicts. If you are in the process of creating a new feature, you don't want to solve those conflicts but finish your feature first.
+ 
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
     Fill in your answer here
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
     Fill in your answer here
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
     Fill in your answer here
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
-
-    Fill in your answer here
-
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
     Fill in your answer here
