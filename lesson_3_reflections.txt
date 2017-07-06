@@ -12,13 +12,13 @@ A clone is copy of a repository. This can be on the same machine, also be a clon
 Branches are leafs on the master branch . Use this for creating new features/bug fixes.
     
 What is the benefit of having a copy of the last known state of the remote stored locally?
+You can work offline
 
-    Fill in your answer here
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+ Without Git or GitHub I have to sent files over via email/networkshare/dropbox etc. 
 
-How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
-
-    Fill in your answer here
-
-When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
-
-    Fill in your answer here
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+    You want to make changes in a different branch so that the master branch always stays in a working state.
+    By using a different branch, you can push your changes to GitHub for review by other people
+    ,without directly messing up the master branch.
+   
