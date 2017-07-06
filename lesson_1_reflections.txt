@@ -1,0 +1,66 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Because it marks the differences 
+	+ symbol with lines that were added 
+	- symbol with lines that were removed
+	If you have many lines you can see what was changed
+	red color remove lines from commit
+	green color add new line 
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	easy access through a version software.
+	you can go to your history and restore a previous version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	Pros : 
+ 		- You will have control over all your changes 
+		- You will know why you are doing the commit 
+		- You have the option to decide when to do it 
+
+		The pros of manually choosing when to save commits is that you have the control to save the commit at a logical point 
+
+
+	Cons: 
+		- Could be too big to do it 
+		- You could forget to commit a change and the electricity is down 
+		- You forget and your computer is stolen
+
+		The con is that you may not save at the right time.  You may save to often or not often enough and that could make changes difficult to understand.  
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    - Because they could be related and would be easy to compare or diff between then 
+    It depends on the type of files you are saving.  Most of the time when you are coding, you will have multiple files that are related to each other and the change you make in one file could affect the other related files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	 --git log :
+	 	to find all the commits that were done
+	 	description 
+	 		what get is every commit that ever been made commit has (ID - Author - Data - message associated with it )
+	 --git diff: 
+	 	to see the differences between these two commit
+	 	description
+	 		-Black Lines don't change 
+	 		-red Lines with mins sign (-) were removed 
+	 		-green Lines with plus sign (+) were added
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	there are a possibility to go back to previous versions of the code if something is broken
+    You can revert back to your previous bug-free file.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	-to use git at work 
+	-to use git at university
+	-to use git for save my work
